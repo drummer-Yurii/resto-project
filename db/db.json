@@ -1,16 +1,22 @@
 {
-  "user": [
+  "users": [
     {
-      "name": "Yurii",
       "email": "yurii@test.com",
+      "name": "Yurii",
       "password": "123123123",
       "id": 1
     },
     {
-      "name": "Peter",
-      "email": "peter@test.com",
+      "email": "tony@test.com",
+      "name": "Tony",
       "password": "123123123",
       "id": 2
+    },
+    {
+      "email": "bruce@test.com",
+      "name": "Bruce",
+      "password": "123123123",
+      "id": 3
     }
   ]
 }
