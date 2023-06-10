@@ -39,10 +39,10 @@
       "address": "Kyiv str 30"
     },
     {
-      "id": 3,
       "name": "KFC",
+      "address": "Poltava str 43/6",
       "contact": 3333,
-      "address": "Poltava str 43/5"
+      "id": 3
     },
     {
       "name": "Starbucks",
