@@ -25,7 +25,6 @@
       "id": 4
     }
   ],
-
   "restaurant": [
     {
       "id": 1,
@@ -44,6 +43,18 @@
       "name": "KFC",
       "contact": 3333,
       "address": "Poltava str 43/5"
+    },
+    {
+      "name": "Starbucks",
+      "address": "Kyiv str 33",
+      "contact": "1234",
+      "id": 4
+    },
+    {
+      "name": "Mushli",
+      "address": "Kyiv podill 22",
+      "contact": "1432",
+      "id": 5
     }
   ]
 }
