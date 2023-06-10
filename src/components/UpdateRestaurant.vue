@@ -11,7 +11,9 @@
 </template>
 
 <script>
+import axios from 'axios';
 import HeaderPage from './HeaderPage.vue';
+
 export default {
     name: 'UpdateRestaurant',
 
@@ -29,12 +31,16 @@ export default {
         }
     },
 
-    mounted() {
+    async mounted() {
         let user = localStorage.getItem('user-info');
 
         if (!user) {
             this.$router.push({ name: 'SignUp' })
         }
+
+        const result = await axios.get('http://localhost:3000/restaurant/'+this.$route.params.id)
+
+        this.restaurant = result.data;
     },
 }
 </script>
